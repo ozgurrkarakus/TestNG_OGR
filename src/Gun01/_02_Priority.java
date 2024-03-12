@@ -2,7 +2,7 @@ package Gun01;
 
 import org.testng.annotations.Test;
 
-public class _01_Priority {
+public class _02_Priority {
     @Test(priority = 1)
     public void DriverOluturmaIslemleri()  // öncelik ayarı yapılmazsa alfabetik çalışıyor
     {
