@@ -2,17 +2,18 @@
 
 <suite name="my suit">
     <test name="test1">
-      <groups>
-          <run>
+
+        <!-- hangi gruplar çalıştırılacak-->
+        <groups>
+            <run>
               <include name="Smoke Test"></include>
-          </run>
-      </groups>
+            </run>
+        </groups>
+
+        <!--çalışacak classların yazıldığı bölüm-->
         <classes>
-            <class name="Gun03.Groups"></class>
+            <class name="Gun03._01_Groups"></class>
         </classes>
-
-
-
 
 
     </test>
